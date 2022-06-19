@@ -39,7 +39,7 @@ function App({ signOut }) {
                   maxWidth: { xs: 350, md: 250 },
                 }}
                 alt="The house from the offer."
-                src="./AnyCLogo.png"
+                src="/AnyCLogo.png"
               />
               <Typography
                 variant="h6"
