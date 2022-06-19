@@ -34,12 +34,9 @@ function App({ signOut }) {
               <Box
                 component="img"
                 sx={{
-                  height: 233,
-                  width: 350,
-                  maxHeight: { xs: 233, md: 167 },
-                  maxWidth: { xs: 350, md: 250 },
+                  height: auto;
+                  max-width: 30%;
                 }}
-                alt="The house from the offer."
                 src={logo}
               />
               <Typography
