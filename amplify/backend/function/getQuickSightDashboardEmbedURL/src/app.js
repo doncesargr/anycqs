@@ -11,7 +11,7 @@ const cognito_role =
 const identity_pool = "us-east-1:834dce93-1f78-4378-bfcb-aa19d63ec6df";
 const user_pool = "us-east-1_DPOn3FgDe";
 const aws_account = "329593214744";
-const dashboard = "2182ef94-c01e-4c96-ac23-da9262610a80";
+const dashboard = "cd4a5939-8ac0-4f87-a4ec-517b0bedb49c";
 
 // declare a new express app
 var app = express();
