@@ -17,7 +17,7 @@ import { Authenticator } from "@aws-amplify/ui-react";
 import "@aws-amplify/ui-react/styles.css";
 
 import awsExports from "./aws-exports";
-import { AppBar } from "@mui/material";
+
 Amplify.configure(awsExports);
 
 const drawerWidth = 240;
