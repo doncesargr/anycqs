@@ -12,6 +12,7 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemText from "@mui/material/ListItemText";
 
 import Embed from "./Embed";
+import logo from "./AnyCLogo.png";
 
 import { Authenticator } from "@aws-amplify/ui-react";
 import "@aws-amplify/ui-react/styles.css";
@@ -39,7 +40,7 @@ function App({ signOut }) {
                   maxWidth: { xs: 350, md: 250 },
                 }}
                 alt="The house from the offer."
-                src="/AnyCLogo.png"
+                src={logo}
               />
               <Typography
                 variant="h6"
