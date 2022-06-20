@@ -60,7 +60,6 @@ class Embed extends React.Component {
   render() {
     return (
       <div>
-        {<div>{" EMBED"}</div>}
         <div id="dashboardContainer"></div>
       </div>
     );
