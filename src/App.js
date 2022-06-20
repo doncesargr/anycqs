@@ -7,7 +7,7 @@ import Typography from "@mui/material/Typography";
 import AppBar from "@mui/material/AppBar";
 
 import Embed from "./Embed";
-import logo from "./AnyCLogo.png";
+import logo from "./Logo250x143px.png";
 
 import { Authenticator } from "@aws-amplify/ui-react";
 import "@aws-amplify/ui-react/styles.css";
@@ -41,8 +41,13 @@ function App({ signOut }) {
                     src={logo}
                   />
 
-                  <Button color="inherit" onClick={signOut}>
-                    Logout
+                  <Button
+                    color="inherit"
+                    component="div"
+                    sx={{ flexGrow: 1 }}
+                    onClick={signOut}
+                  >
+                    <Typography variant="h6">Logout</Typography>
                   </Button>
                 </Toolbar>
               </AppBar>
